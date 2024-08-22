@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>おうちアプリ</title>
+        <link rel="icon" href="img/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="description" content="ポートフォリオサイト｜制作物紹介｜おこづかいちょう">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+JP:wght@400;700;800&family=Raleway:wght@400;500;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- JQuery -->
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <div class="nav">
+            <ul>
+                <li><a href="#readme">READ ME</a></li>
+                <li><a href="#er">ER図</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+            </div>
+            <div class="fv">
+                <div class="keymsgs">
+                    <div><h1 class="keymsg">おこづかいちょう</h1></div>
+                    <div class="keymsg">お金の持ちかた、つかいかた。</div>
+                </div>
+            </div>
+        </header>
+        <!-- end -->
+        <!-- main -->
+        <main>
+            <article>
+            <!-- READ ME -->
+            <section id="readme" class="about">
+                <h2 class="title">READ ME</h2>
+                <div class="contents wrapper">
+                    <div class="about-image"><img src="img/sooda.jpg" alt="アプリ画面"></div>
+                    <div class="msg">
+                        <h3>スマホを使うようになった年齢の子どもが<br>手軽に支出、収入、やりたいことなどを入力、把握できるように<br>サポートする</h3>
+                        <ul>
+                            <li>お金の持ち方について考える</li>
+                            <li>必要経費、好きなこと、人のために使うお金と分けて予算を立てる感覚を身につける</li>
+                            <li>自分のお金の使い道や今後の目標を記録することで、好きなこと、興味あることを可視化する</li>
+                            <li>やりたいことを計画し、そのための予算を立てる</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- ER図紹介、Figmaリンク -->
+            <section id="er" class="er">
+                <h2 class="title">ER図</h2>
+                <div class="contents wrapper">
+                    <div class="about-image"><img src="img/ER.jpg" alt="ER図"></div>
+                    <div class="msg">
+                    <h3>使用技術</h3>
+                    <ul>
+                        <li>Ruby Ver.2.7</li>
+                        <li>Ruby on Rails Ver.5.2.4</li>
+                        <li>Gem</li>
+                        <li>devise</li>
+                        <li>omniauth-line</li>
+                        <li>carrierwave</li>
+                        <li>mini_magick</li>
+                        <li>dotenv_rails</li>
+                        <li>kaminari</li>
+                        <li>simple_calendar</li>
+                    </ul>
+                    <div class="square-btn">
+                        <h3><a class="figma" href="https://www.figma.com/board/MKxwU1nVO6KdhJuaMuM6Y0/sooda_Ver.2%E3%83%95%E3%83%AD%E3%83%BC%E5%9B%B3?node-id=0-1&t=fZoa4bwHCWmaExa1-1" target="_blank">業務フロー図はこちら(Figma)</a></h3>
+                        <h3><a class="figma" href="https://www.figma.com/board/c3p85njwePL1tJzi5NBjfY/sooda_Ver.2%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?node-id=0-1&t=Ykd3s91iAFb4dl7e-1" target="_blank">画面遷移図はこちら(Figma)</a></h3>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- products -->
+            <section id="products" class="products">
+                <h2 class="title">Products</h2>
+                <ul class="slider">
+                    <li class="item">
+                        <a href="#" ><img src="img/azure_01.jpg" alt="azure_api図"></a>
+                        <div class="info">
+                            <div>
+                                <p class="name">Azure SDK</p>
+                                <p class="label">Azure</p>
+                            </div>
+                            <p>アプリにOpenAIを組み込む</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="#"><img src="img/AI_01.jpeg" alt="星空テラス"></a>
+                        <div class="info">
+                            <div>
+                                <p class="name">星空テラス</p>
+                                <p class="label">生成AI</p>
+                            </div>
+                            <p>画像生成</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="#" ><img src="img/site_01.jpg" alt="カレー店HP"></a>
+                        <div class="info">
+                            <div>
+                                <p class="name">薬膳カレー店_1</p>
+                                <p class="label">Webサイト</p>
+                            </div>
+                            <p>ハンバーガーメニュー実装</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="#" ><img src="img/site_02.jpg" alt="カレー店HP"></a>
+                        <div class="info">
+                            <div>
+                                <p class="name">薬膳カレー店_2</p>
+                                <p class="label">Webサイト</p>
+                            </div>
+                            <p>タイプライターのようなアニメーション</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="#" ><img src="img/site_03.jpg" alt="２カラム天ぷら店"></a>
+                        <div class="info">
+                            <div>
+                                <p class="name">天ぷら店
+                                </p>
+                                <p class="label">Webサイト</p>
+                            </div>
+                            <p>２カラム</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="#" ><img src="img/site_04.jpg" alt="1カラム写真家"></a>
+                        <div class="info">
+                            <div>
+                                <p class="name">１カラムのサイト</p>
+                                <p class="label">Webサイト</p>
+                            </div>
+                            <p>お問い合わせフォームを設置</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="#" ><img src="img/site_05.jpg" alt="矯正歯科"></a>
+                        <div class="info">
+                            <div>
+                                <p class="name">矯正歯科</p>
+                                <p class="label">Webサイト</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="coment wrapper">最後までご覧いただき、ありがとうございます</h3>
+            </section>
+            <!-- footer -->
+            <footer>
+                <div class="footer">
+                    <p><small>&copy; Makiko Yamashita</small></p>
+                </div>
+            </footer>
+            <!-- end -->
+            </article>
+        </main>
+    </body>
+</html>
