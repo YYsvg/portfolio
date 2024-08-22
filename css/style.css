@@ -118,21 +118,22 @@ section {
 .figma {
   color: red
 }
-.square-btn { 
-    margin-top: 3rem;
+.square-btn {
+  text-align: center;
+  min-width: 100px;
+  max-width: 100%;
 }
 .square-btn a:hover{
-    background-color: #edecff;
-    color: #3c3c3c;
+  background-color: #edecff;
+  color: #3c3c3c;
 }
 .square-btn a {
-    width: 200px;
-    height: 56px;
-    font-family: 'Raleway',sans-serif;
-    background-color: #fcfcfa;
-    padding:2rem 12rem;
-    box-shadow: 0px 0px 30px 8px #e6e6e6;
-    border-radius: 24px;
+  margin: auto;
+  font-family: 'Raleway',sans-serif;
+  background-color: #fcfcfa;
+  padding: 2rem 12rem;
+  box-shadow: 0px 0px 30px 8px #e6e6e6;
+  border-radius: 24px;
 }
 /* Products */
 .item{
